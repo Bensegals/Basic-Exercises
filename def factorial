@@ -1,0 +1,7 @@
+def factorial(x):
+  init=1
+  while(x>0):
+    init*=x
+    x=x-1
+  return init
+  
